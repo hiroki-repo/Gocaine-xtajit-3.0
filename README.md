@@ -5,6 +5,9 @@ is an emulator for the Wine to run x86 code fast and like Gocaine-xtajit 1.x and
 # Requirement to make use of the softwore
 Wine 8.0 or more
 
+# How to use on the Mac OS X or the non Linux based system
+Please use Mac OS X version in "macosx" folder at this repository on these systems. But WSL2 CAN BE USED WITH LINUX VERSION OF GOCAINE XTAJIT 3.0!
+
 # How to use it
 1, Copy and/or implement the Wine i386 Wow64 modules for i386 apps compatibility to SysWOW64 folder in Windows folder,  also if lacked SysWOW64 folder in Windows folder on the Wine for AArch64, you have to make the folder or you may need to build the Wine library for i386(IA-32, 32Bit x86) and 'Wow64.dll' and 'Wow64win.dll' for AArch64 in building wine.
 
